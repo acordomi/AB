@@ -1,0 +1,16 @@
+# Ignore all Python files in all directories excetpt those starting with test_ or ini_
+**/*.py
+!**/test_*.py
+!**/ini_*.py
+
+# Ignore all compiled Python files in all directories
+**/*.pyc
+**/*:Zone.Identifier
+
+# Ignore additional files and directories
+__pycache__/
+
+P1/convert_alignment/abc*
+P1/convert_alignment/prep/
+P1/convert_alignment/PF00664.sto
+P5/gotoh/steb-by-step_gotoh.txt
